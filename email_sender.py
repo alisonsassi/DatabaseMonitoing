@@ -6,9 +6,9 @@ def send_email(subject,body):
     corpo_email = "<p>" + body + "</p>"
     msg = email.message.Message()
     msg['Subject'] = subject
-    msg['From'] = 'sendere23@gmail.com'
-    msg['To'] = 'alison.sassi@philips.com'
-    password =  'zhvjsbdgulzbuzmb' # Login: sendere23@gmail.com Password: 23Philips@ 
+    msg['From'] = 'EMAIL@SERVIDOR.COM'
+    msg['To'] = 'EMAIL_DE_ENVIO'
+    password =  'SENHA AUTORIZADA'
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email )
 
